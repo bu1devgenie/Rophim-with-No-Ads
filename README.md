@@ -34,7 +34,7 @@ Click the Code button → Download ZIP.
 
 Extract the ZIP file.
 
-2. Install on Google Chrome
+### 2. Install on Google Chrome
 Open Google Chrome (or any Chromium-based browser such as Brave, Edge, Opera).
 
 Navigate to:
@@ -47,7 +47,7 @@ Select the folder containing the manifest.json file (the folder you downloaded o
 
 The extension will now appear in your Extensions list and run automatically.
 
-3. Verify it’s working
+### 3. Verify it’s working
 Visit a website with banner ads, popups, or video ads.
 
 The extension will:
