@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "RoPhim with no Ads",
+  "version": "1.1",
+  "description": "Automatically hide ads, popups and skip video ads on rophim.me",
+  "permissions": ["scripting", "activeTab"],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.rophim.me/*",
+        "https://goatembed.com/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle",
+      "all_frames": true
+    }
+  ]
+}
